@@ -1,6 +1,9 @@
 # Transferências API
 
-![Java](https://img.shields.io/badge/Java-17-blue) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.0-brightgreen) ![Maven](https://img.shields.io/badge/Maven-3.8.7-blue)
+![Java](https://img.shields.io/badge/Java-17-blue) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.0-brightgreen) ![Maven](https://img.shields.io/badge/Maven-3.8.7-blue)  
+![Deploy Status](https://img.shields.io/endpoint?url=https://render.com/badge/andromedacripto/transferencias-api)  
+
+---
 
 ## Sobre o projeto
 
@@ -10,19 +13,27 @@ O objetivo principal é aplicar boas práticas de programação, uso do Git para
 
 ---
 
+## Link do Deploy
+
+A API está disponível online para testes e consultas:
+
+👉 [https://transferencias-api.onrender.com](https://transferencias-api.onrender.com)
+
+---
+
 ## Tecnologias utilizadas
 
 - Java 17  
 - Spring Boot 3  
 - Maven (gerenciamento de dependências)  
 - Git e GitHub (controle de versão)  
-- Deploy em Render.com (opcional)  
+- Deploy em Render.com  
 
 ---
 
 ## Funcionalidades
 
-- Endpoint raiz de teste (`HelloController`)  
+- Endpoint raiz de teste (`HelloController`) que retorna uma mensagem simples  
 - Estrutura básica para criar, listar e gerenciar transferências (expandível)  
 - Código organizado em camadas: controller, service, model e repository  
 
@@ -34,3 +45,4 @@ O objetivo principal é aplicar boas práticas de programação, uso do Git para
 ```bash
 git clone https://github.com/andromedacripto/transferencias-api.git
 cd transferencias-api
+
